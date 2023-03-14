@@ -1,0 +1,14 @@
+[user]
+	email = allaa.mohmd@gmail.com
+	name = alaamahran
+[core]
+	editor = code -n -w
+	pager = less -F -X
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
