@@ -16,7 +16,7 @@ alias grep='grep --color'
 alias graph="git log --oneline --decorate --all"
 
 # dotfiles git command -> config works like 'git' in this case
-alias config="git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 # GNU ls for listing directories first
 alias ls="gls --group-directories-first --color=tty"
