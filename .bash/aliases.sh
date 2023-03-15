@@ -19,7 +19,7 @@ alias graph="git log --oneline --decorate --all"
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 # GNU ls for listing directories first
-alias ls="gls --group-directories-first --color=tty"
+alias ls="ls --group-directories-first --color=tty"
 
 # Sublime text editor
 alias subl="C:/Tool/Sublime\ Text/subl.exe"
