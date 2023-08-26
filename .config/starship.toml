@@ -1,3 +1,7 @@
+
+# Inserts a blank line between shell prompts
+add_newline = false
+
 format = """
 $username\
 $hostname\
@@ -14,8 +18,10 @@ $character"""
 style = "blue"
 
 [character]
-success_symbol = "[❯](purple)"
-error_symbol = "[❯](red)"
+success_symbol = '[➜](bold green) '
+error_symbol = '[✗](bold red) '
+#success_symbol = "[❯](purple)"
+#error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](green)"
 
 [git_branch]
@@ -44,3 +50,6 @@ style = "yellow"
 [python]
 format = "[$virtualenv]($style) "
 style = "bright-black"
+
+[line_break]
+disabled = true

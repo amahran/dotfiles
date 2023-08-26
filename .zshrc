@@ -26,3 +26,4 @@ eval "$(starship init zsh)"
 
 # Load Direnv
 #eval "$(direnv hook zsh)"
+export PATH="/usr/local/sbin:$PATH"
