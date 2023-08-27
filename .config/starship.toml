@@ -3,6 +3,7 @@
 add_newline = false
 
 format = """
+$character\
 $username\
 $hostname\
 $directory\
@@ -12,14 +13,14 @@ $git_status\
 $cmd_duration\
 $line_break\
 $python\
-$character"""
+[✗](bold yellow) """
 
 [directory]
 style = "blue"
 
 [character]
-success_symbol = '[➜](bold green) '
-error_symbol = '[✗](bold red) '
+success_symbol = '[](bold green) '
+error_symbol = '[](bold red) '
 #success_symbol = "[❯](purple)"
 #error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](green)"
