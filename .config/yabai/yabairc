@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 # Binary space layout
 # default layout (can be bsp, stack or float)
 yabai -m config layout bsp
@@ -21,6 +23,7 @@ yabai -m config mouse_drop_action1 swap
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Shottr$" manage=off
+yabai -m rule --add app="System Information" manage=off
 
 # add 20 padding to the top and 0 padding to the bottom of every space located on the main display
 yabai -m config external_bar all:0:29
