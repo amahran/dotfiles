@@ -1,14 +1,28 @@
 [user]
-	email = allaa.mohmd@gmail.com
-	name = alaamahran
+	email = alaa.mahran@webasto.com
+	name = mahrana
 [core]
 	editor = code -n -w
 	pager = less -F -X
 [push]
 	default = upstream
-[merge]
-	conflictstyle = diff3
 [init]
 	defaultBranch = main
 [color]
 	ui = auto
+[http]
+	sslbackend = schannel
+[credential "https://clmgitlab.global.web-int.net"]
+	provider = generic
+[diff]
+	tool = bc
+[difftool "bc"]
+	path = C:/Tool/Beyond Compare 4/bcomp.exe
+[merge]
+	tool = bc
+[mergetool "bc"]
+	path = c:/Tool/Beyond Compare 4/bcomp.exe
+[difftool]
+	prompt = false
+[mergetool]
+	keepBackup = false
